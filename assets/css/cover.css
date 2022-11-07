@@ -10,6 +10,11 @@ a:hover{
   color: black;
 }
 
+.button-color {
+  background: #027383;
+  color: white;
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -80,6 +85,28 @@ a:hover{
 .about-clinik {
   margin-top: 20px;
 }
+
+/*str price*/
+
+.block-price {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.block-price  h2 {
+  color: black;
+}
+.form-control {
+   border: none;
+   border-radius: 0;
+}
+
+.input-border {
+  border-bottom: 1px solid #027383;
+}
+
+
+/*str price end*/
 
 /*footer*/
 footer {
