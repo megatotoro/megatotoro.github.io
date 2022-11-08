@@ -21,11 +21,11 @@
   	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 	  <header class="mb-auto">
 	    <div>
-	      <h3 class="float-md-start mb-0">Аэлита</h3>
+	      <h3 class="float-md-start mb-0"><a href="index.html">Аэлита</a></h3>
 	      <nav class="nav nav-masthead justify-content-center float-md-end">
 	        <a class="nav-link fw-bold py-1 px-0" href="index.html">Главная</a>
 	        <a class="nav-link fw-bold py-1 px-0" href="price.html">Услуги</a>
-	        <a class="nav-link fw-bold py-1 px-0" href="about.html">Врачи</a>
+	        <a class="nav-link fw-bold py-1 px-0" href="doctors.html">Врачи</a>
 	        <a class="nav-link fw-bold py-1 px-0" href="https://2gis.ru/abakan/firm/9711414977502199/tab/reviews?m=91.440904%2C53.72662%2F16">Отзывы</a>
 	        <a class="nav-link fw-bold py-1 px-0" href="contacts.html">Контакты</a>
 	      </nav>
@@ -82,7 +82,10 @@
 	            <div class="card-body">
 	                <h1 class="card-title about-h">О клинике</h1>
 	                <hr class="line-about" size="5px">
-	                <p class="card-text fst-italic">Взрослая стоматология в Красноярске. Здесь можно получить комплексную и качественную помощь. Мы решаем проблемы с зубами, деснами и ротовой полостью. Наша команда даст нашим клиентам душевное спокойствие и уверенность в успехе вашего лечения.</p>
+	                <p class="card-text">Более 16 лет опыта работы.</p>
+	                <p class="card-text">Более 20 000 довольных клиентов.</p>
+	                <p class="card-text">Коллектив клиники состоит из высококвалифицированных специалистов.</p>
+	                <p class="card-text">Лечение производится на самом современном оборудовании.</p>
 	            </div>
 	        </div>
 	    </div>
@@ -173,20 +176,23 @@
 	       <form>
 					<div class="mb-3">
 						<label for="fio" class="form-label">ФИО</label>
-						<input class="form-control input-border" type="text" id="fio">
+						<input class="form-control input-border" type="text" id="fio" required>
 					</div>
 					<div class="mb-3">
 						<label for="phone" class="form-label">Номер телефона</label>
-						<input class="form-control input-border" type="phone" id="phone">
+						<input class="form-control input-border" type="phone" id="phone" required>
 					</div>
 					<div class="mb-3">
 						<label for="date" class="form-label">Дата</label>
 						<input type="date" class="form-control input-border" id="date" name="date" placeholder="Дата" required>
 					</div>
-					
+					<div class="mb-3">
+					  <label for="comments" class="form-label">Комментарий</label>
+					  <textarea class="form-control" id="comments" rows="2"></textarea>
+					</div>
 					<div class="mb-3 form-check">
-					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-					    <label class="form-check-label" for="exampleCheck1">Я согласен с <a href="http://стомаэлита.рф/политика-конфиденциальности.html" style="color:black;">политикой конфиденциальности</a></label>
+					    <input type="checkbox" class="form-check-input" id="checkok" required>
+					    <label class="form-check-label" for="checkok">Я согласен с <a href="http://стомаэлита.рф/политика-конфиденциальности.html" style="color:black;">политикой конфиденциальности</a></label>
 					</div>
 				    <button type="submit" class="btn button-color">Записаться</button>
 				</form>
@@ -204,7 +210,7 @@
 			<div class="col-8">
 			  <a class="link-footer nav-link" href="index.html">Главная</a>
 				<a class="link-footer nav-link" href="price.html">Услуги</a>
-				<a class="link-footer nav-link" href="about.html">Врачи</a>
+				<a class="link-footer nav-link" href="doctors.html">Врачи</a>
 				<a class="link-footer nav-link" href="https://2gis.ru/abakan/firm/9711414977502199/tab/reviews?m=91.440904%2C53.72662%2F16">Отзывы</a>
 				<a class="link-footer nav-link" href="contacts.html">Контакты</a>
 			</div>

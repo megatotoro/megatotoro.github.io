@@ -33,6 +33,10 @@ a:hover{
  background: #027383;
 }
 
+.float-md-start a {
+  color:  white;
+}
+
 .cover-container {
   max-width: 42em;
 }
@@ -105,8 +109,24 @@ a:hover{
   border-bottom: 1px solid #027383;
 }
 
+textarea {
+  border: 1px solid #027383 !important;
+}
+
 
 /*str price end*/
+
+/* str doctors */
+.doctors {
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.doctors-line {
+  color: #027383;
+}
+/* end str doctors */
 
 /*footer*/
 footer {
