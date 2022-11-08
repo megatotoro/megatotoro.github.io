@@ -126,6 +126,10 @@ textarea {
 .doctors-line {
   color: #027383;
 }
+.doctors-img {
+  width: 70%;
+}
+
 /* end str doctors */
 
 /*footer*/
