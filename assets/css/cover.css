@@ -1,8 +1,4 @@
 
-h1,h2,h3,h4,h5 {
-  color: white;
-}
-
 a {
   text-decoration: none;
 }
@@ -13,6 +9,13 @@ a:hover{
 .button-color {
   background: #027383;
   color: white;
+}
+
+.h-line {
+  color: #027383;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
 }
 
 /* Custom default button */
@@ -80,6 +83,10 @@ width: 80%;
   border-right: 1px solid black;
 }
 
+.block-service a {
+  color: black;
+}
+
 .about-h {
   color: black;
 }
@@ -114,6 +121,24 @@ width: 80%;
 
 textarea {
   border: 1px solid #027383 !important;
+}
+
+.price-block-nap {
+  background: #027383;
+  font-weight: bold;
+  height: 150px;
+  margin:10px;
+  word-wrap: break-word;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+.price-block-nap a {
+  color: white;
+}
+
+.price-block-nap a:hover{
+  color:#ffffff59;
 }
 
 
