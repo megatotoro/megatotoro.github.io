@@ -181,6 +181,11 @@ textarea {
   border-color: #027383;
 }
 
+.button-doctors:hover{
+  color: white;
+  background: #02738391;
+}
+
 /* end str doctors */
 
 /*footer*/
