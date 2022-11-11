@@ -175,6 +175,12 @@ textarea {
   width: 70%;
 }
 
+.button-doctors{
+  color: white;
+  background-color: #027383;
+  border-color: #027383;
+}
+
 /* end str doctors */
 
 /*footer*/
