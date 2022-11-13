@@ -90,12 +90,27 @@ width: 80%;
 .block-services {
   margin: 25px;
   padding:20px;
-  background: #d3e3e5;
   height: 100px;
+  background: #e2e5e99c;
+}
+
+.border-n {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.border-one {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+ 
 }
 
 .block-services a {
   color: black;
+}
+
+.block-services:hover{
+  background: #f7fafd;
 }
 
 .about-h {
