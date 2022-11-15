@@ -77,6 +77,11 @@ a:hover{
 width: 80%;
 }
 
+.one-block {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 .block-about {
   margin-top: 70px;
   margin-bottom: 50px;
@@ -90,27 +95,18 @@ width: 80%;
 .block-services {
   margin: 25px;
   padding:20px;
-  height: 100px;
-  background: #e2e5e99c;
-}
+  height: 10em;
+  border:1px solid #00000059;
+  border-radius: 100%;
 
-.border-n {
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-}
-
-.border-one {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
- 
 }
 
 .block-services a {
   color: black;
 }
 
-.block-services:hover{
-  background: #f7fafd;
+.block-services a:hover{
+  color: #027383;
 }
 
 .about-h {
