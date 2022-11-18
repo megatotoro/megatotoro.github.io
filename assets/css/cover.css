@@ -19,6 +19,7 @@ body {
 }
 .content {
   flex: 1 0 auto;
+  margin-bottom: 50px;
 }
 
 .button-color {
@@ -229,7 +230,6 @@ footer {
   padding-top:  30px;
 }
 .footer {
-  margin-top: 50px;
   flex: 0 0 auto;
 }
 
